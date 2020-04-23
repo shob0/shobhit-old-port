@@ -7,6 +7,7 @@ import React from "react";
  *Impacts: []
  */
 function Experience(props) {
+  let imp = props.impact;
   return (
     <div id="experience">
       <div>
@@ -14,14 +15,18 @@ function Experience(props) {
       </div>
       <strong>{props.title}</strong>
       <div style={{ margin: "8px 0 0 70px" }} className="light-content">
-        <span>{props.company}</span>
-        <h6 style={{ margin: "0 0 0 24px" }}>{props.roleName}</h6>
+        <span>
+          <u>{props.company}</u>
+        </span>
+        <h6 style={{ margin: "0 0 0 24px" }}>
+          <i>{props.roleName}</i>
+        </h6>
       </div>
       <div id="experiene-content" className="light-content">
         <ul>
-          <li>one</li>
-          <li>Two</li>
-          <li>Three</li>
+          {imp.map((imm, ind) => (
+            <li key={ind}>{imm}</li>
+          ))}
         </ul>
       </div>
     </div>

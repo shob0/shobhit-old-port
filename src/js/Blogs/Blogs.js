@@ -17,6 +17,9 @@ function Blogs() {
 
   return (
     <div className="sideDiv">
+      <h4 style={{ color: "red" }}>
+        <u>Please note that this section is stil not complete. Thnanks</u>
+      </h4>
       <div style={styles.blogHeaderDiv}>
         <div>
           <button

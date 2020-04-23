@@ -1,7 +1,12 @@
 import React from "react";
+import WIP from "../WIP";
 
 function Projects() {
-  return <div>Projects TBD</div>;
+  return (
+    <div>
+      <WIP />
+    </div>
+  );
 }
 
 export default Projects;

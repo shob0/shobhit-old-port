@@ -9,7 +9,7 @@ function Header() {
       <header>
         <button
           type="button"
-          className="nav-bar-button"
+          className="nav-bar-button textColor"
           style={{ transform: "scale(1)" }}
           onClick={() => {
             history.push("/");
@@ -29,7 +29,7 @@ function Header() {
             <div className="nav">
               <button
                 type="button"
-                className="nav-bar-button"
+                className="nav-bar-button textColor"
                 onClick={() => {
                   history.push("/blogs");
                 }}
@@ -38,12 +38,21 @@ function Header() {
               </button>
               <button
                 type="button"
-                className="nav-bar-button"
+                className="nav-bar-button textColor"
                 onClick={() => {
                   history.push("/projects");
                 }}
               >
                 <span>projects</span>
+              </button>
+              <button
+                type="button"
+                className="nav-bar-button textColor"
+                onClick={() => {
+                  history.push("/contact");
+                }}
+              >
+                <span>contact</span>
               </button>
             </div>
           </nav>
