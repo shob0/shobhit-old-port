@@ -1,0 +1,42 @@
+{
+  "name": "shob0.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/App.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shob0/shob0.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shob0/shob0.github.io/issues"
+  },
+  "homepage": "https://github.com/shob0/shob0.github.io#readme",
+  "dependencies": {
+    "@types/react-transition-group": "^4.2.4",
+    "gsap": "^3.2.6",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-router-transition": "^2.0.0",
+    "react-transition-group": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.4"
+  }
+}

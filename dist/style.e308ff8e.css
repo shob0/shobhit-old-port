@@ -1,0 +1,137 @@
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  -webkit-user-select: none; /* safari*/
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                      supported by Chrome, Opera and Firefox */
+}
+p,
+h1 {
+  margin: 4px;
+}
+header,
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar-button {
+  border: none;
+  background-color: inherit;
+  font-size: larger;
+  cursor: pointer;
+}
+.nav-bar-button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.nav-bar-button span {
+  border-bottom: 1px solid black;
+}
+
+.image-div,
+img {
+  position: relative;
+  left: 0;
+  width: 90vw;
+}
+ul li {
+  list-style: none;
+}
+.main {
+  padding: 50px 80px 30px 80px;
+}
+.name {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.light-content {
+  color: #808080;
+}
+.divider {
+  border: 2px solid salmon;
+  background-color: salmon;
+  border-radius: 1px;
+  width: 10px;
+  float: left;
+  margin-right: 3px;
+}
+.nav {
+  display: inline-block;
+  left: 0;
+}
+#intro,
+#contact,
+#experience,
+#volunteer {
+  margin: 100px 0 0 100px;
+}
+#intro-header {
+  margin: 8px 0 0 60px;
+  font-size: 40px;
+}
+#intro-content {
+  font-size: large;
+}
+#email-btn {
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+#email {
+  margin: 10px 0 8px 0;
+  height: 100px;
+  width: 25%;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
+  cursor: pointer;
+}
+#email:hover {
+  background-color: black;
+  color: white;
+}
+#contact-btn {
+  margin: 10px 0 8px 0;
+  bottom: 0;
+  float: right;
+  width: 15%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.btn {
+  width: 14vw;
+  height: 30px;
+  margin: 10px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn-hover:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
+.post-btn:hover {
+  transform: scale(1.002);
+  transition: transform 200ms;
+}
+
+.sideDiv {
+  padding: 30px 20px 20px 20px;
+  margin: 50px 20px 20px 20px;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
