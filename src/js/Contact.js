@@ -25,7 +25,7 @@ function Contact() {
         </div>
       </div>
       <div className="contact">
-        <div>
+        <div className="btn-div">
           <a href="https://github.com/shob0" title="https://github.com/shob0">
             <button className="btn  textColor contact-btn">
               <span className="large-text">Github</span>

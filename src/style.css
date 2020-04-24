@@ -176,6 +176,21 @@ a {
   .wip-p {
     font-size: 50px;
   }
+
+  .contact-btn {
+    width: 10em;
+  }
+
+  .large-text {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 324px) {
+  .contact {
+    display: block;
+    margin-left: 20%;
+  }
 }
 
 @media (min-width: 930px) {
