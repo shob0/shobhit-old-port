@@ -1,3 +1,9 @@
+:root {
+  --main-bg-color: black;
+  --main-text-color: gray;
+  --span-color: gray;
+}
+
 body {
   background-color: white;
   font-family: "Merriweather Sans", sans-serif;
@@ -9,7 +15,7 @@ body {
 }
 
 .textColor {
-  color: red;
+  color: var(--main-bg-color);
 }
 p,
 h1 {
@@ -40,7 +46,7 @@ nav {
 
 .nav-bar-button span {
   border-bottom: 1px solid black;
-  border-color: salmon;
+  border-color: var(--span-color);
 }
 
 .footer {
@@ -71,7 +77,8 @@ li::before {
   font-size: 30px;
 }
 .light-content {
-  color: #e17366;
+  /* color: #e17366; */
+  color: var(--main-text-color);
 }
 .divider {
   border: 2px solid salmon;
@@ -149,6 +156,8 @@ a {
   min-width: -webkit-fill-available;
   min-width: -webkit-fit-content;
   min-width: fit-content;
+  border: none;
+  text-decoration: underline;
 }
 
 .large-text {
@@ -157,7 +166,7 @@ a {
 
 .contact-btn:hover {
   color: white;
-  background-color: salmon;
+  background-color: var(--main-bg-color);
   transition: background-color ease-in 300ms, ease-in color 300ms;
 }
 

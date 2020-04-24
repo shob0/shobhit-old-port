@@ -9,7 +9,7 @@ function Header() {
       <header>
         <button
           type="button"
-          className="nav-bar-button textColor"
+          className="nav-bar-button textColor btn-hover"
           style={{ transform: "scale(1)" }}
           onClick={() => {
             history.push("/");
