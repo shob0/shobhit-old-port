@@ -9,7 +9,7 @@ import React from "react";
 function Experience(props) {
   let imp = props.impact;
   return (
-    <div id="experience">
+    <div className="experience">
       <div>
         <hr className="divider" />
       </div>

@@ -86,10 +86,6 @@ li::before {
   margin-top: 80px;
 }
 
-#experience,
-#volunteer {
-  margin: 50px 0 0 100px;
-}
 #intro-content {
   font-size: large;
 }
@@ -163,4 +159,33 @@ a {
   color: white;
   background-color: salmon;
   transition: background-color ease-in 300ms, ease-in color 300ms;
+}
+
+.wip-p {
+  color: salmon;
+  font-size: 70px;
+}
+
+@media (max-width: 929px) {
+  .main {
+    padding: 40px 2em 30px 2em;
+  }
+  .experience {
+    margin: 50px 0 0 10px;
+  }
+  .wip-p {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 930px) {
+  .experience {
+    margin: 50px 0 0 80px;
+  }
+}
+
+@media (max-width: 452px) {
+  .nav-bar-button {
+    display: inherit;
+  }
 }
