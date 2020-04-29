@@ -1,5 +1,4 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 /**
  * post object in props contains beloe value ie. props.post
  * id: Number
@@ -10,10 +9,8 @@ import { useHistory } from "react-router-dom";
  *
  */
 function Post(props) {
-  let history = useHistory();
-
   let post = props.post;
-  let contentShow = post.content.substring(0, 105);
+  let contentShow = post.visibleData;
 
   return (
     <div className="post sideDiv" style={styles.post}>
@@ -22,7 +19,7 @@ function Post(props) {
         style={styles.btn}
         className="post-btn"
         onClick={() => {
-          history.push("/blogs/" + post.id);
+          props.clickHandler(props.post);
         }}
       >
         <div style={styles.postData}>
@@ -34,7 +31,7 @@ function Post(props) {
         <div className="post-content" style={styles.postContent}>
           <span style={styles.contentSpan}>
             {contentShow}
-            {contentShow.length < post.content.length && <span>....</span>}
+            <span>...</span>
           </span>
         </div>
       </button>
