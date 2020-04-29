@@ -12,7 +12,7 @@ export const impacts = [
   [
     "INFS certified nutrition and exercise expert.",
     "Weekly meeting coordination for more than a year",
-    "Organized and helped in various events including national conference and workshops.",
+    "Organized various events including national conference and workshops to help people who stammer to lead a happier life.",
     "Featured in company portal and media for stammering awareness prgramms.",
     "WWF volunteer for park and beach cleanup events.",
   ],

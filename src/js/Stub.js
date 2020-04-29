@@ -52,18 +52,86 @@ const obj = [
   {
     id: 2,
     title: "Proud tulip papa",
-    content: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+    visibleData: `In the house I live, I am lucky enough to have a garden. So, this spring I decided to plant few tulips. T`,
+    content: `<div dir="ltr" style="text-align: left;" trbidi="on">
+    In the house I live, I am lucky enough to have a garden. So, this spring I decided to plant few tulips. This way I will have something else to proud of along with my Job. I bought 10 tulip bulbs and planted in different places. One of them, which will probably turn into a beautiful black tulip, I planted for my own room. Hence It was in a pot, others, in the garden.<br />
+    <br />
+    <!--more--><br />
+    <br />
+    After few weeks, the one in the pot started to raise his head: my first tulip. Others were probably still growing but under earth. The pot tulip grew so much that I had to shift it to a bigger pot. In the process, by mistake I planted it at an angle.<br />
+    <br />
+    After 2 more weeks, I was watering them same, giving a bit more nutrition to the pot tulip as It can't receive same from the mother earth. Others had also started raising their head. I couldn't be more happier. I was on cloud nine. 6 of the 10 have come out on the earth and I have to take less care of them.<br />
+    <br />
+    Interesting thing happened last Friday when I was watering them. One tulip, in the corner of garden was coming up very beautifully. It was straight, had very green leaves and growing as fast as on in the pot even though It saw sun after the latter. I thought to myself, "I am most proud of this tulip."<br />
+    <br />
+    Being as stupid as I am, The reasoning started in the mind, <u>why I am only proud of this one. Others are also planted by me. They did not ask me to plant them. I am giving them same treatment, same water and everything. The reason pot tulip is slanted is because</u><u>&nbsp;I,</u><u>&nbsp;for starters, did not provide it proper contained environment. Why I am proud of only this one. Is this how I prioritize everything in my life: my friends, my relatives. And will this be the way I will continue&nbsp;</u><u>prioritizing things and people.</u><br />
+    <br />
+    Lastly after a very thorough investigation and mindful thinking, I decided to make an attempt to deliberately be proud of each plant. Every time, I am watering my tulips or tomatoes for that matter, I say to myself I am proud of this plant. Thanks for being the way you are. You are loved. Hopefully this change will also get reflected in life.<br />
+    <br />
+    Here is the pot plant:<br />
+    <div class="separator" style="clear: both; text-align: center;">
+    <br /></div>
+    <div class="separator" style="clear: both; text-align: center;">
+    <a href="https://1.bp.blogspot.com/-wx7wgOZBSNE/XpNujSmrI3I/AAAAAAAAMys/f9fcZhC8KnkQWe3pAZJnpVO8ezkvQfyOACLcBGAsYHQ/s1600/IMG_20200408_191855.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1600" data-original-width="1200" height="400" src="https://1.bp.blogspot.com/-wx7wgOZBSNE/XpNujSmrI3I/AAAAAAAAMys/f9fcZhC8KnkQWe3pAZJnpVO8ezkvQfyOACLcBGAsYHQ/s400/IMG_20200408_191855.jpg" width="300" /></a></div>
+    <div class="separator" style="clear: both; text-align: center;">
+    Pot Plant.</div>
+    <div class="separator" style="clear: both; text-align: center;">
+    <br /></div>
+    <div class="separator" style="clear: both; text-align: left;">
+    Will add others as I click more photos.</div>
+    <br /></div>
+    `,
     date: new Date(),
     author: "Shobhit",
   },
   {
     id: 3,
     title: "Toastmaster Speech 1 preparation",
-    content: `Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`,
+    visibleData: `After much avoidance and then deliberation, I have finally decided to join toastmasters. It has been`,
+    content: `<div dir="ltr" style="text-align: left;" trbidi="on">
+    <h2 style="text-align: left;">
+    Speech 1 - Ice Breaker</h2>
+    <div style="text-align: left;">
+    After much avoidance and then deliberation, I have finally decided to join toastmasters. It has been 3 months and now the time for my first speech is on its way. I have decided to give my speech as to how stammering is dealt on day to day basis. How I treated it way back in time and how I treat it now. This speech is going to be difficult and I am trying not to look back and run away.</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    I had two months to prepare but I always pushed it on the back burner or say kept avoiding it as It is difficult to think and then write. Now when its only 18 days for the speech, Now I have started to practice. I have written the speech and it will be polished in due time. I have decided to practice it at-least three times everyday. The idea is inspired by a metaphor which I heard way back when I joined The Indian Stammering Association. Here goes the speech.<br />
+    <!--more--></div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    Dear Fellow Toast Masters, Let me start by asking you a simple question. "Have you guys ever had a pet? If yes, Did you not love it to fullest!". Everyone does. I too have a pet. It was given to me when I was born. I did not want it. But I did not have any say in that.</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    It was a very wild pet, very disobedient. A wild dog you can say. It will start barking whenever I am talking with somebody. I will scold it, threaten it, even punish it but no effect. Needless to say I hated it. I was even ashamed by it. I wanted but I could not get rid of it.</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    One day, I was walking down the road and I saw a guy with the same pet. But his pet was silent, not barking at all. It will start but the man will gently caress it and It will go back to be silent.</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    I was mesmerized. This person had something which I don't and Now I wanted it. I went ahead and asked him. He, a sixty year old guy, game me strangest advice I have ever heard. He told me to love the pet, be kind to it. If it barks, gently sooth it and it will be silent. I thought this guy is mad.&nbsp;</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    <b>How can you love something when it is giving you so much problems.</b>&nbsp;Anyhow, I decided to gave it a try. Every time it will bark, I will breathe and say to myself its okay. To my surprise, The wild thing actually became silent. I was flabbergasted. Now every time I was kind to it, it will be silent and If I go to my old patterns, It will start his own old patterns. I had got the secret now. If you love it, It will be a good friend, If you hate it, It will be a painful companion.</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    Even today, I am practicing to love it. Still sometimes I get angry on it or feel ashamed of it. But over the years, we have become good friends. Do you know who that friend is. I am sure each one of you have met him. Its stammering.&nbsp;</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    Thank you.</div>
+    <div style="text-align: left;">
+    <br /></div>
+    <div style="text-align: left;">
+    -- I will upload the video as&nbsp; well once I have given the speech and attach it to the same.</div>
+    </div>
+    `,
     date: new Date(),
     author: "Shobhit",
   },
