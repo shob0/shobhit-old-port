@@ -3,7 +3,7 @@ import WIP from "../WIP";
 
 function Projects() {
   return (
-    <div>
+    <div className="route-div">
       <WIP />
     </div>
   );

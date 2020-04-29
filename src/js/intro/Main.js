@@ -6,7 +6,7 @@ import { impacts } from "../../../resources/Impact";
 function Main() {
   const [experienceImpact, volunteerImpact] = impacts;
   return (
-    <div className="textColor">
+    <div className="textColor route-div">
       <div id="intro" className="intro-header">
         <div>
           <hr className="divider" />

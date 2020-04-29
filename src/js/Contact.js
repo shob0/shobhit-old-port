@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
+    <div className="route-div">
       <div className="contact">
         <div>
           <a

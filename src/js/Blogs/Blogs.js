@@ -21,7 +21,7 @@ function Blogs() {
   };
 
   return (
-    <div className="">
+    <div className="route-div">
       <div style={styles.content}>
         {posts.map(function mapOverPosts(val) {
           return <Post key={val.id} post={val} clickHandler={toggleModal} />;

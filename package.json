@@ -2,7 +2,7 @@
   "name": "shob0.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "./js/App.js",
+  "main": "./js/index.js",
   "scripts": {
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/shob0/shob0.github.io#readme",
   "dependencies": {
-    "@types/react-transition-group": "^4.2.4",
     "babel-polyfill": "^6.26.0",
-    "draft-js": "^0.11.5",
+    "express": "^4.17.1",
+    "framer-motion": "^1.10.3",
     "gsap": "^3.2.6",
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.1",

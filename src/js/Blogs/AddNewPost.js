@@ -1,12 +1,7 @@
 import React from "react";
-import TextBox from "../TextBox";
 
 function AddNewPost() {
-  return (
-    <div className="sideDiv">
-      <TextBox />
-    </div>
-  );
+  return <div className="sideDiv"></div>;
 }
 
 export default AddNewPost;
