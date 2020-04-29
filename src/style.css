@@ -213,3 +213,73 @@ a {
     display: inherit;
   }
 }
+
+/* Modal styling */
+.modal-bg {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation-name: fadeOut;
+  animation-duration: 400ms;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid black;
+  width: 80%;
+  animation-name: topslidein;
+  animation-duration: 400ms;
+}
+
+@keyframes topslidein {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-header-close-btn {
+  color: #aaa;
+  float: right;
+  top: 0;
+}
+.modal-close-btn {
+  background-color: inherit;
+  transform: scale(3);
+  border: none;
+  cursor: pointer;
+}
+
+.modal-header-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body {
+  margin-top: 2%;
+  height: 450px;
+  overflow-y: scroll;
+}

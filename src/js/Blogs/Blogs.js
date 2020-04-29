@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Post from "./Post";
+import Modal from "./Modal";
 import Stub from "../Stub";
 
 function Blogs() {
   const [posts, setPosts] = useState([]);
+  const [selectedPost, setSelectedPost] = useState({});
+  const [viewModal, toggleViewModal] = useState(false);
 
   useEffect(() => {
     const p = Stub.GetPosts();
@@ -12,17 +15,19 @@ function Blogs() {
     } //no else clause needed
   }, [posts]);
 
-  const openModal = (e) => {
-    console.log(e.content);
+  const toggleModal = (e) => {
+    setSelectedPost(e);
+    toggleViewModal(!viewModal);
   };
 
   return (
     <div className="">
       <div style={styles.content}>
         {posts.map(function mapOverPosts(val) {
-          return <Post key={val.id} post={val} clickHandler={openModal} />;
+          return <Post key={val.id} post={val} clickHandler={toggleModal} />;
         })}
       </div>
+      {viewModal && <Modal closeModal={toggleModal} post={selectedPost} />}
     </div>
   );
 }
