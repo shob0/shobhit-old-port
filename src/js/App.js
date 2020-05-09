@@ -7,8 +7,6 @@ import Blogs from "./Blogs/Blogs";
 import projects from "./Projects/Projects";
 import Notfound from "./notFound";
 
-// const BlogComponent = React.lazy(() => import("./Blogs/Blogs"));
-
 const App = () => {
   return (
     <div className="main">

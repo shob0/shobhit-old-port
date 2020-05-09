@@ -1,8 +1,14 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
+import resume from "../../resources/resume.pdf";
+
 function Header() {
   let history = useHistory();
+
+  const downloadResume = () => {
+    window.open(resume, "_blank", "");
+  };
 
   return (
     <div className="header">
@@ -53,6 +59,16 @@ function Header() {
                 }}
               >
                 <span>contact</span>
+              </button>
+              <button
+                type="button"
+                style={{ color: "red", transform: "scale(1.12)" }}
+                className="nav-bar-button textColor"
+                onClick={downloadResume}
+              >
+                <span>
+                  <b>resume</b>
+                </span>
               </button>
             </div>
           </nav>

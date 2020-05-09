@@ -186,11 +186,6 @@ a {
   transition: background-color ease-in 300ms, ease-in color 300ms;
 }
 
-.wip-p {
-  color: salmon;
-  font-size: 70px;
-}
-
 @media (max-width: 929px) {
   .main {
     padding: 40px 2em 30px 2em;
