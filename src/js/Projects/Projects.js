@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className="route-div">
       <WIP fontSize="16px" color="salmon" marginTop="40px" />
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div className="iframe">
         <Iframe
           src="https://codepen.io/shob0/full/ExVQGrd"
           title="codepen-animation-sidenav"

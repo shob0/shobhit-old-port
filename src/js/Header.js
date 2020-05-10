@@ -32,44 +32,56 @@ function Header() {
         </button>
         <div>
           <nav>
-            <div className="nav">
-              <button
-                type="button"
-                className="nav-bar-button textColor"
-                onClick={() => {
-                  history.push("/blogs");
-                }}
-              >
-                <span>blogs</span>
-              </button>
-              <button
-                type="button"
-                className="nav-bar-button textColor"
-                onClick={() => {
-                  history.push("/projects");
-                }}
-              >
-                <span>projects</span>
-              </button>
-              <button
-                type="button"
-                className="nav-bar-button textColor"
-                onClick={() => {
-                  history.push("/contact");
-                }}
-              >
-                <span>contact</span>
-              </button>
-              <button
-                type="button"
-                style={{ color: "red", transform: "scale(1.12)" }}
-                className="nav-bar-button textColor"
-                onClick={downloadResume}
-              >
-                <span>
-                  <b>resume</b>
-                </span>
-              </button>
+            <div className="nav" id="nav">
+              <div>
+                <button
+                  type="button"
+                  className="nav-bar-button textColor"
+                  onClick={() => {
+                    history.push("/blogs");
+                  }}
+                  aria-label="blogs button"
+                >
+                  <span>blogs</span>
+                </button>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  className="nav-bar-button textColor"
+                  onClick={() => {
+                    history.push("/projects");
+                  }}
+                  aria-label="projects button"
+                >
+                  <span>projects</span>
+                </button>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  className="nav-bar-button textColor"
+                  onClick={() => {
+                    history.push("/contact");
+                  }}
+                  aria-label="contact button"
+                >
+                  <span>contact</span>
+                </button>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  style={{ color: "red", transform: "scale(1.12)" }}
+                  className="nav-bar-button textColor"
+                  onClick={downloadResume}
+                  aria-label="resume download button"
+                >
+                  <span>
+                    <b>resume</b>
+                  </span>
+                </button>
+              </div>
             </div>
           </nav>
         </div>

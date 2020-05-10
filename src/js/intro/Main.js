@@ -22,7 +22,12 @@ function Main() {
             </p>
           </div>
         </div>
-        <img src={ME} alt="Shobhit Singh" className="full-width-img" />
+        <img
+          src={ME}
+          alt="Shobhit stnading in front of hills. red tshirt, smiling"
+          className="full-width-img"
+          style={{ marginLeft: "0", position: "relative", marginTop: "20px" }}
+        />
       </div>
 
       <Experience

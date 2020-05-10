@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="route-div">
-      <div className="contact">
+      <div style={Styles.contact}>
         <div>
           <a
             href="mailto:shobhit5@hotmail.com"
@@ -11,7 +11,10 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn textColor contact-btn">
+            <button
+              className="btn textColor contact-btn"
+              style={Styles.contactBtn}
+            >
               <span className="large-text">Email</span>
             </button>
           </a>
@@ -23,13 +26,16 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn  textColor contact-btn">
+            <button
+              className="btn  textColor contact-btn"
+              style={Styles.contactBtn}
+            >
               <span className="large-text">Phone</span>
             </button>
           </a>
         </div>
       </div>
-      <div className="contact">
+      <div style={Styles.contact}>
         <div className="btn-div">
           <a
             href="https://github.com/shob0"
@@ -37,7 +43,10 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn  textColor contact-btn">
+            <button
+              className="btn  textColor contact-btn"
+              style={Styles.contactBtn}
+            >
               <span className="large-text">Github</span>
             </button>
           </a>
@@ -49,7 +58,10 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn  textColor contact-btn">
+            <button
+              className="btn  textColor contact-btn"
+              style={Styles.contactBtn}
+            >
               <span className="large-text">LinkedIn</span>
             </button>
           </a>
@@ -58,5 +70,20 @@ function Contact() {
     </div>
   );
 }
+
+const Styles = {
+  contact: {
+    display: "flex",
+    justifyContent: "space-evenly",
+    marginTop: "60px",
+  },
+  contactBtn: {
+    height: "100px",
+    minHeight: "max-content",
+    minWidth: "-webkit-fill-available",
+    border: "none",
+    textDecoration: "underline",
+  },
+};
 
 export default Contact;

@@ -2,7 +2,7 @@ import React from "react";
 
 function Iframe(props) {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center" }} className="iframe-div">
       <div>
         <iframe src={props.src} title={props.title}></iframe>
       </div>

@@ -22,10 +22,12 @@ function Experience(props) {
           <i>{props.roleName}</i>
         </h6>
       </div>
-      <div id="experiene-content" className="light-content">
+      <div className="light-content">
         <ul>
           {imp.map((imm, ind) => (
-            <li key={ind}>{imm}</li>
+            <li key={ind} style={{ listStyle: "none" }}>
+              {imm}
+            </li>
           ))}
         </ul>
       </div>
