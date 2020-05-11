@@ -17,8 +17,9 @@ function Main() {
             <hr className="divider" style={{ transform: "scale(0.6)" }} />
             {/* <span className="light-content">about me</span> */}
             <p className="light-content">
-              I'm Shobhit, front end developer, Poetry lover, Yogi, loves to
-              explore <em>JavaScript, HTML/CSS.</em>
+              I'm Shobhit, front end developer, Poetry lover, Yogi, Kick
+              boxer,Toastmaster, Certified Nutrition Expert, loves to explore
+              <em>JavaScript, HTML/CSS.</em>
             </p>
           </div>
         </div>
