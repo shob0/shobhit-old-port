@@ -242,7 +242,7 @@ a {
   margin-top: 20px;
 }
 
-.menu {
+.menu-div {
   display: none;
   transform: scale(2);
 }
@@ -273,20 +273,25 @@ a {
   }
 }
 
+@media (min-width: 515px) {
+  #menu {
+    display: none;
+  }
+}
+
 @media (max-width: 514px) {
   .nav {
     display: none;
     transform: scale(0.8);
+  }
+  .menu-div {
+    display: block;
   }
   .iframe {
     display: block;
   }
   .iframe-div {
     margin-top: 20px;
-  }
-
-  .menu {
-    display: block;
   }
 
   .open-menu {

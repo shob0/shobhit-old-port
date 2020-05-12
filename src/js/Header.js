@@ -44,7 +44,7 @@ function Header() {
         </button>
         <div>
           <nav>
-            <div className="menu">
+            <div className="menu-div">
               <button
                 type="button"
                 aria-label="toggle menu"
