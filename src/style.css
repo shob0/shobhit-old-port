@@ -242,9 +242,40 @@ a {
   margin-top: 20px;
 }
 
+.menu {
+  display: none;
+  transform: scale(2);
+}
+
+.menu-btn {
+  background-color: inherit;
+  border: none;
+  font-family: inherit;
+  color: aliceblue;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 514px) {
   .nav {
-    display: block;
+    display: none;
     transform: scale(0.8);
   }
   .iframe {
@@ -252,5 +283,47 @@ a {
   }
   .iframe-div {
     margin-top: 20px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .open-menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: black;
+    color: aliceblue;
+    animation-name: fadeInLeft;
+    animation-duration: 500ms;
+  }
+  .menu-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .menu-option {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+  }
+
+  li::before {
+    content: none;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+  }
+
+  .menu-card button {
+    color: aliceblue;
   }
 }

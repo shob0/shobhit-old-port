@@ -6,6 +6,18 @@ import resume from "../../resources/resume.pdf";
 function Header() {
   let history = useHistory();
 
+  const openMenuCard = () => {
+    var menuEle = document.querySelector("#menu");
+    menuEle.classList.remove("hidden");
+    menuEle.classList.add("open-menu");
+  };
+
+  const closeMenu = () => {
+    var menuEle = document.querySelector("#menu");
+    menuEle.classList.add("hidden");
+    menuEle.classList.remove("open-menu");
+  };
+
   const downloadResume = () => {
     window.open(resume, "_blank", "");
   };
@@ -32,6 +44,17 @@ function Header() {
         </button>
         <div>
           <nav>
+            <div className="menu">
+              <button
+                type="button"
+                aria-label="toggle menu"
+                className="menu-btn"
+                onClick={openMenuCard}
+                style={{ color: "black" }}
+              >
+                &#x2630;
+              </button>
+            </div>
             <div className="nav" id="nav">
               <div>
                 <button
@@ -86,6 +109,90 @@ function Header() {
           </nav>
         </div>
       </header>
+      <div className="hidden" id="menu">
+        <div className="menu-card">
+          <div>
+            <button
+              type="button"
+              aria-label="toggle menu"
+              className="menu-btn"
+              onClick={() => {
+                history.push("/");
+                closeMenu();
+              }}
+            >
+              Home
+            </button>
+          </div>
+          <div>
+            <button
+              type="button"
+              aria-label="toggle menu"
+              className="menu-btn"
+              onClick={closeMenu}
+            >
+              X
+            </button>
+          </div>
+        </div>
+        <div className="menu-option">
+          <ul>
+            <li>
+              <button
+                type="button"
+                className="menu-btn"
+                onClick={() => {
+                  history.push("/blogs");
+                  closeMenu();
+                }}
+                aria-label="blogs"
+              >
+                blogs
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                className="menu-btn"
+                onClick={() => {
+                  history.push("/projects");
+                  closeMenu();
+                }}
+                aria-label="projects"
+              >
+                projects
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                className="menu-btn"
+                onClick={() => {
+                  history.push("/contact");
+                  closeMenu();
+                }}
+                aria-label="contact button"
+              >
+                contact
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                style={{ color: "red", transform: "scale(1.12)" }}
+                className="menu-btn"
+                onClick={() => {
+                  downloadResume();
+                  closeMenu();
+                }}
+                aria-label="resume download button"
+              >
+                resume
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
