@@ -120,6 +120,7 @@ function Header() {
                 history.push("/");
                 closeMenu();
               }}
+              style={{ transform: "scale(1.8)" }}
             >
               Home
             </button>
